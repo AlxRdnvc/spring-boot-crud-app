@@ -1,6 +1,6 @@
 package com.alxrdnvc.crudapp.services;
 
-import com.alxrdnvc.crudapp.NationalityRepository;
+import com.alxrdnvc.crudapp.repositories.NationalityRepository;
 import com.alxrdnvc.crudapp.models.Nationality;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

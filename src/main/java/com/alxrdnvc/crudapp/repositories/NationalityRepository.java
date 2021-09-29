@@ -1,4 +1,4 @@
-package com.alxrdnvc.crudapp;
+package com.alxrdnvc.crudapp.repositories;
 
 import com.alxrdnvc.crudapp.models.Nationality;
 import org.springframework.data.repository.CrudRepository;

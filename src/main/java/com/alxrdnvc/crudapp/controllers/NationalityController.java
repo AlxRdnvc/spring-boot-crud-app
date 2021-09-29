@@ -1,18 +1,15 @@
 package com.alxrdnvc.crudapp.controllers;
 
-import com.alxrdnvc.crudapp.NationalityRepository;
 import com.alxrdnvc.crudapp.models.Nationality;
 import com.alxrdnvc.crudapp.services.NationalityService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
-import org.springframework.stereotype.Repository;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.ResponseBody;
 
-import javax.persistence.criteria.CriteriaBuilder;
 import java.util.Optional;
 
 @Controller
